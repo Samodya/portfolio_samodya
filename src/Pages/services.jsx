@@ -6,7 +6,7 @@ export const ServicesPage = () => {
     {
       title: "Full-Stack Web Development",
       description:
-        "Building modern, scalable applications using Laravel, React, and Python.",
+        "Building modern, scalable applications using Laravel, MERN stack, and PHP.",
       icon: <Code className="text-blue-400 w-12 h-12" />,
     },
     {
@@ -21,12 +21,12 @@ export const ServicesPage = () => {
         "Designing efficient and scalable databases using MySQL, PostgreSQL, and MongoDB.",
       icon: <Database className="text-yellow-400 w-12 h-12" />,
     },
-    {
-      title: "AI & Automation",
-      description:
-        "Developing AI-powered and automated solutions using Python and Machine Learning.",
-      icon: <Cpu className="text-purple-400 w-12 h-12" />,
-    },
+    // {
+    //   title: "AI & Automation",
+    //   description:
+    //     "Developing AI-powered and automated solutions using Python and Machine Learning.",
+    //   icon: <Cpu className="text-purple-400 w-12 h-12" />,
+    // },
   ];
 
   return (

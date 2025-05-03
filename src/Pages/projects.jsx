@@ -1,22 +1,25 @@
 import { motion } from "framer-motion";
+import image1 from "../assets/image1.png"
+import image2 from "../assets/image2.png"
+import image3 from "../assets/lecturer_portal.png"
 
 const projects = [
   {
     title: "Portfolio Website",
-    description: "A modern portfolio built with React, Tailwind CSS, and Framer Motion.",
-    image: "https://source.unsplash.com/500x300/?technology,website",
+    description: "A modern portfolio built with Vite, Tailwind CSS, and Framer Motion.",
+    image: image1,
     link: "#",
   },
   {
-    title: "E-commerce App",
-    description: "A full-stack e-commerce platform with payment integration.",
-    image: "https://source.unsplash.com/500x300/?shopping,app",
+    title: "Medical Center Mangent App",
+    description: "A full-stack admin platform with Ability to monitor patiants and medical reports.",
+    image: image2,
     link: "#",
   },
   {
-    title: "Blog Platform",
-    description: "A clean, minimal blog platform with a markdown editor.",
-    image: "https://source.unsplash.com/500x300/?writing,blog",
+    title: "Lecturer portal",
+    description: "A clean, minimal Lecturer portal which allows lecturers update their lecturer coverges and monitor their payments froms institute.",
+    image: image3,
     link: "#",
   },
   {
