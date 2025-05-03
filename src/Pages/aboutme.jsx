@@ -68,6 +68,7 @@ export const Aboutme = () => {
             , frontend frameworks such as{" "}
             <span className="text-purple-300 font-semibold">React.js</span>, and
             programming in{" "}
+            <span className="text-purple-300 font-semibold">MERN</span>
           </p>
 
           {/* Skills Animation */}
