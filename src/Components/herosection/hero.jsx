@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profile from '../../assets/Samodya_img.jpg'
+import profile from '../../assets/Samodya_img.jpg';
+import resume from '../../assets/Samodya_Resume.pdf'; // <-- Import your PDF
 
 const HeroSection = () => {
 
@@ -8,7 +9,6 @@ const HeroSection = () => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
-      setMenuOpen(false); // Close menu after clicking
     }
   };
 
@@ -44,20 +44,30 @@ const HeroSection = () => {
           <p className="text-gray-300 text-lg md:text-xl mt-4">
             A Full-Stack Developer specialized in PHP, Laravel, MERN, and React.
           </p>
-          <motion.div
-            onClick={() => handleScrollTo("contact")}
-            className="inline-block mt-4 mx-2 px-6 py-3 bg-purple-500 text-white text-lg font-medium rounded-lg hover:bg-purple-600 transition-all duration-300 shadow-lg"
-            whileHover={{ scale: 1.05 }}
-          >
-            Contact Me
-          </motion.div>
-          <motion.a
-            onClick={() => handleScrollTo("projects")}
-            className="inline-block mt-4 mx-2 px-6 py-3 bg-purple-500 text-white text-lg font-medium rounded-lg hover:bg-purple-600 transition-all duration-300 shadow-lg"
-            whileHover={{ scale: 1.05 }}
-          >
-            My Work
-          </motion.a>
+          <div className="flex flex-col sm:flex-row justify-center md:justify-start mt-6 gap-4">
+            <motion.button
+              onClick={() => handleScrollTo("contact")}
+              className="px-6 py-3 bg-purple-500 text-white text-lg font-medium rounded-lg hover:bg-purple-600 transition-all duration-300 shadow-lg"
+              whileHover={{ scale: 1.05 }}
+            >
+              Contact Me
+            </motion.button>
+            <motion.button
+              onClick={() => handleScrollTo("projects")}
+              className="px-6 py-3 bg-purple-500 text-white text-lg font-medium rounded-lg hover:bg-purple-600 transition-all duration-300 shadow-lg"
+              whileHover={{ scale: 1.05 }}
+            >
+              My Work
+            </motion.button>
+            <motion.a
+              href={resume}
+              download="Samodya_Resume.pdf"
+              className="px-6 py-3 bg-purple-500 text-white text-lg font-medium rounded-lg hover:bg-purple-600 transition-all duration-300 shadow-lg text-center"
+              whileHover={{ scale: 1.05 }}
+            >
+              Download Resume
+            </motion.a>
+          </div>
         </motion.div>
       </div>
     </div>
@@ -65,3 +75,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
