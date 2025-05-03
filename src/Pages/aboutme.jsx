@@ -20,7 +20,7 @@ export const Aboutme = () => {
             <span className="text-purple-400 font-semibold">
               Full-Stack Developer
             </span>{" "}
-            specializing in PHP, Laravel, React, and Python. I love building
+            specializing in PHP, Laravel, React, and MERN. I love building
             modern, scalable, and user-friendly web applications.
           </p>
         </motion.div>
@@ -68,7 +68,6 @@ export const Aboutme = () => {
             , frontend frameworks such as{" "}
             <span className="text-purple-300 font-semibold">React.js</span>, and
             programming in{" "}
-            <span className="text-purple-300 font-semibold">Python</span>.
           </p>
 
           {/* Skills Animation */}
@@ -83,7 +82,6 @@ export const Aboutme = () => {
               "PHP",
               "Laravel",
               "React",
-              "Python",
               "Tailwind",
               "Node.js",
               "express.js",
