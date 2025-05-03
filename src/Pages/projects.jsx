@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import image1 from "../assets/image1.png"
 import image2 from "../assets/image2.png"
 import image3 from "../assets/lecturer_portal.png"
+import image4 from "../assets/image3_hrm.png"
 
 const projects = [
   {
@@ -23,9 +24,9 @@ const projects = [
     link: "#",
   },
   {
-    title: "Task Manager",
-    description: "A task management app with drag-and-drop functionality.",
-    image: "https://source.unsplash.com/500x300/?productivity,task",
+    title: "HRM System",
+    description: "A Human Resources Managment System, which handle employee attendance, leaves and other activity.",
+    image: image4,
     link: "#",
   },
 ];
