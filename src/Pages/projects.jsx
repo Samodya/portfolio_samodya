@@ -34,7 +34,7 @@ const projects = [
     title: "todo App",
     description: "A task management app to maintain daily activities(under development).",
     image: image5,
-    link: "https://github.com/Samodya/HRM-System",
+    link: "https://github.com/Samodya/todo_full_stack",
   },
 ];
 
