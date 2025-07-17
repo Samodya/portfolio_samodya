@@ -16,7 +16,7 @@ const projects = [
     title: "Medical Center Mangent App",
     description: "A full-stack admin platform with Ability to monitor patiants and medical reports.",
     image: image2,
-    link: "https://github.com/Samodya/portfolio_samodya",
+    link: "https://github.com/Samodya/hospital-System",
   },
   {
     title: "Lecturer portal",
