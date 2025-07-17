@@ -52,7 +52,7 @@ export const Projects = () => {
         My Projects
       </motion.h2>
 
-      {/* Project Grid */}
+      {/* Project Grid #1 */}
       <motion.div 
         className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto"
         initial={{ opacity: 0 }}
