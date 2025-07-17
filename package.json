@@ -1,6 +1,6 @@
 {
   "name": "portfolio_personal",
-  "homepage":"https://Samodya.github.io/portfolio_samodya/",
+  "homepage": "https://Samodya.github.io/portfolio_samodya/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -34,6 +34,6 @@
     "globals": "^15.14.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.8",
-    "vite": "^6.1.0"
+    "vite": "^7.0.5"
   }
 }

@@ -3,31 +3,38 @@ import image1 from "../assets/image1.png"
 import image2 from "../assets/image2.png"
 import image3 from "../assets/lecturer_portal.png"
 import image4 from "../assets/image3_hrm.png"
+import image5 from "../assets/image4.png"
 
 const projects = [
   {
     title: "Portfolio Website",
     description: "A modern portfolio built with Vite, Tailwind CSS, and Framer Motion.",
     image: image1,
-    link: "#",
+    link: "https://github.com/Samodya/portfolio_samodya",
   },
   {
     title: "Medical Center Mangent App",
     description: "A full-stack admin platform with Ability to monitor patiants and medical reports.",
     image: image2,
-    link: "#",
+    link: "https://github.com/Samodya/portfolio_samodya",
   },
   {
     title: "Lecturer portal",
     description: "A clean, minimal Lecturer portal which allows lecturers update their lecturer coverges and monitor their payments froms institute.",
     image: image3,
-    link: "#",
+    link: "https://github.com/Samodya/lec_pay_system",
   },
   {
     title: "HRM System",
-    description: "A Human Resources Managment System, which handle employee attendance, leaves and other activity.",
+    description: "A Human Resources Managment System, which handle employee attendance, leaves and other activity(under development).",
     image: image4,
-    link: "#",
+    link: "https://github.com/Samodya/HRM-System",
+  },
+  {
+    title: "todo App",
+    description: "A task management app to maintain daily activities(under development).",
+    image: image5,
+    link: "https://github.com/Samodya/HRM-System",
   },
 ];
 

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Github } from "lucide-react";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -69,27 +69,15 @@ export const Contact = () => {
             </div>
 
             <div className="flex space-x-4 mt-6">
+             
               <motion.a
-                href="#"
-                className="p-3 bg-blue-600 text-white rounded-full hover:bg-blue-700"
+                href="https://github.com/Samodya/"
+                className="p-3 bg-bg-black text-white rounded-full hover:bg-blue-500 border border-rounded"
                 whileHover={{ scale: 1.2 }}
               >
-                <Facebook />
+                <Github />
               </motion.a>
-              <motion.a
-                href="#"
-                className="p-3 bg-blue-400 text-white rounded-full hover:bg-blue-500"
-                whileHover={{ scale: 1.2 }}
-              >
-                <Twitter />
-              </motion.a>
-              <motion.a
-                href="#"
-                className="p-3 bg-blue-700 text-white rounded-full hover:bg-blue-800"
-                whileHover={{ scale: 1.2 }}
-              >
-                <Linkedin />
-              </motion.a>
+              
             </div>
           </div>
 
